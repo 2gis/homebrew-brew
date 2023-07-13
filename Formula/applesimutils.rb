@@ -26,8 +26,9 @@
 class Applesimutils < Formula
   desc "Apple simulator utilities"
   homepage "https://github.com/aapng/AppleSimulatorUtils"
-  url 'https://github.com/aapng/AppleSimulatorUtils/archive/refs/tags/0.9.10.tar.gz'
-  sha256 '9ce295962ecfd8f9230da9121647c011205db1186cda7dcd8a5307de1c64cf43'
+  url "https://github.com/aapng/AppleSimulatorUtils.git",
+    tag:      "0.9.10",
+    revision: "fe3c60c166790563723b19197cffeae5b2c5242c"
   head "https://github.com/aapng/AppleSimulatorUtils.git"
 
   depends_on xcode: ["14.2", :build]
