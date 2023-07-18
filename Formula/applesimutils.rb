@@ -28,7 +28,7 @@ class Applesimutils < Formula
   homepage "https://github.com/2gis/AppleSimulatorUtils"
   url "https://github.com/2gis/AppleSimulatorUtils.git",
     tag:      "0.9.10",
-    revision: "fe3c60c166790563723b19197cffeae5b2c5242c"
+    revision: "066c4f6faf3717deb98bfda17a25dbcdbc84ebec"
   head "https://github.com/2gis/AppleSimulatorUtils.git"
 
   depends_on xcode: ["14.2", :build]
