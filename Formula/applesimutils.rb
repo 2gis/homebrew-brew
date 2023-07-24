@@ -27,11 +27,11 @@ class Applesimutils < Formula
   desc "Apple simulator utilities"
   homepage "https://github.com/2gis/AppleSimulatorUtils"
   url "https://github.com/2gis/AppleSimulatorUtils.git",
-    tag:      "0.9.10",
-    revision: "066c4f6faf3717deb98bfda17a25dbcdbc84ebec"
+    tag:      "0.9.11",
+    revision: "450ac8ed62130ea74228d8cbec9ee4b40cc6092a"
   head "https://github.com/2gis/AppleSimulatorUtils.git"
 
-  depends_on xcode: ["14.2", :build]
+  depends_on xcode: ["14.3.1", :build]
 
   def install
     system "./buildForBrew.sh", prefix
